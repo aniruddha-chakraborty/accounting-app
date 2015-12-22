@@ -64,3 +64,22 @@
         transform: translateX(0px);
     }
 }
+.wrapper.centeraligned{
+    width:1170px;
+    height:100%;
+    margin:0 auto;
+    position:relative;
+}
+.structure-table{
+    display:table;
+    width:100%;
+    position:relative;
+}
+.structure-row{
+    display:table-row;
+    width:100%;
+}
+.structure-row.alone{
+    display:block;
+    width:100%;
+}
