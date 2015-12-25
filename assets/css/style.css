@@ -162,3 +162,19 @@ aside.sidebarhidden .shadows {
 aside.sidebarhidden header .logo{
     display:none;
 }
+
+/* Toggle Button */
+.wrapper aside header .togglemenu{
+    width:26px;
+    height:26px;
+    float:right;
+    display:block;
+    background:url(../images/sprite.png) no-repeat 0 0;
+}
+aside.sidebarhidden header .togglemenu{
+    float:left;
+    margin-left:-5px;
+}
+.sidebarhidden nav.navigation{
+    display:block;
+}
