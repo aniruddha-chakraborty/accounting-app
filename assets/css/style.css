@@ -337,3 +337,46 @@ aside.sidebarhidden .navi-acc a {
 .sidebarhidden .label{
     display:none;
 }
+
+/* Level 2 */
+.navi-acc li ul { 
+    background: #222430;
+    padding:10px 0;
+    margin:0;
+    list-style:none;
+}
+aside.sidebarhidden .navi-acc li ul { 
+    left: 68px;
+    top:0;
+    display:none !important;
+    position: absolute;
+    text-indent: inherit;
+    width: 200px;
+}
+aside.sidebarhidden .navi-acc li.active ul { 
+    display:block !important;
+}
+.right-sec + aside.sidebarhidden .navi-acc li ul {
+    left:auto;
+    right:68px;
+}
+aside.sidebarhidden .navi-acc li ul a{ 
+    padding-left:20px;
+}
+aside.sidebarhidden .navi-acc li:hover ul { 
+    display: block !important;
+}
+aside.sidebarhidden .navi-acc li ul li a {
+    text-indent:inherit;
+}
+.navi-acc li ul li a {
+    padding:7px 26px 8px 26px;
+    font-size: 13px;
+    font-weight:normal;
+    text-transform:none;
+    background:none;
+}
+.navi-acc li ul li:hover a {
+    background:#181922;
+    color:#FFF !important;
+}
