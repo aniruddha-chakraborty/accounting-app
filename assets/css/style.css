@@ -178,3 +178,162 @@ aside.sidebarhidden header .togglemenu{
 .sidebarhidden nav.navigation{
     display:block;
 }
+
+/* Sidebar Navigation */
+.navi-acc { 
+    list-style-type: none;
+    float:left;
+    width:100%;
+}
+.navi-acc > li {
+    position:relative;
+    width:100%;
+    float:left;
+}
+.navi-acc li div {
+    padding: 20px;
+    background: #aef;
+    display: block;
+    clear: both;
+    float: left;
+    width: 360px;
+}
+.navi-acc a {
+    color:#9b9ba3 !important;
+    display:block;
+    padding:17px 20px 20px 67px;
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 13px;
+    font-weight:bold;
+    width:100%;
+    position:relative;
+    text-transform:uppercase;
+    background:url(../images/sep.gif) repeat-x bottom transparent;
+}
+aside.sidebarhidden .navi-acc a {
+    padding-left:0;
+    padding-right:0;
+    text-indent:-9999px;
+}
+.navi-acc li a:before {
+    content:"";
+    position:absolute;
+    left:26px;
+    display:inline-block;
+    background:url(../images/sprite.png) no-repeat;
+}
+.sidebarhidden .navi-acc li a:before {
+    left:23px;
+}
+.navi-acc li a.dashboard:before {
+    background-position:0px -26px;
+    width:22px;
+    height:22px;
+    top:16px;
+}
+.navi-acc li a.dashboard:hover:before, .navi-acc li.active a.dashboard:before {
+    background-position:-27px -26px;
+}
+.navi-acc li a.layouts:before {
+    background-position:0px -48px;
+    width:20px;
+    height:20px;
+    top:17px;
+}
+.navi-acc li a.layouts:hover:before, .navi-acc li.active a.layouts:before {
+    background-position:-27px -48px;
+}
+.navi-acc li a.ui-elements:before {
+    background-position:0 -69px;
+    width:20px;
+    height:20px;
+    top:17px;
+}
+.navi-acc li a.ui-elements:hover:before, .navi-acc li.active a.ui-elements:before {
+    background-position:-27px -69px;
+}
+.navi-acc li a.mailbox:before {
+    background-position:0px -111px;
+    width:24px;
+    height:15px;
+    top:19px;
+}
+.navi-acc li a.mailbox:hover:before, .navi-acc li.active a.mailbox:before {
+    background-position:-27px -111px;
+}
+.navi-acc li a.forms:before {
+    background-position:0px -127px;
+    width:24px;
+    height:20px;
+    top:16px;
+}
+.navi-acc li a.forms:hover:before, .navi-acc li.active a.forms:before {
+    background-position:-27px -127px;
+}
+.navi-acc li a.pages:before {
+    background-position:0px -148px;
+    width:20px;
+    height:20px;
+    top:17px;
+}
+.navi-acc li a.pages:hover:before, .navi-acc li.active a.pages:before {
+    background-position:-27px -148px;
+}
+.navi-acc li a.charts:before {
+    background-position:0px -90px;
+    width:20px;
+    height:20px;
+    top:16px;
+}
+.navi-acc li a.charts:hover:before, .navi-acc li.active a.charts:before {
+    background-position:-27px -90px;
+}
+.navi-acc li a.extras:before {
+    background-position:0 -169px;
+    width:20px;
+    height:19px;
+    top:17px;
+}
+.navi-acc li a.extras:hover:before, .navi-acc li.active a.extras:before {
+    background-position:-27px -169px;
+}
+.navi-acc li a.loginoptions:before {
+    background-position:0 -189px;
+    width:22px;
+    height:22px;
+    top:15px;
+}
+.navi-acc li a.loginoptions:hover:before, .navi-acc li.active a.loginoptions:before {
+    background-position:-27px -189px;
+}
+.navi-acc li a.maps:before {
+    background-position:-2px -212px;
+    width:18px;
+    height:25px;
+    top:14px;
+}
+.navi-acc li a.maps:hover:before, .navi-acc li.active a.maps:before {
+    background-position:-29px -212px;
+}
+.navi-acc li.active > a, .navi-acc li a {
+    -webkit-transition: background-color 1000ms ease;
+    -moz-transition: background-color 1000ms ease;
+    -ms-transition: background-color 1000ms ease;
+    -o-transition: background-color 1000ms ease;
+    transition: background-color 1000ms ease;
+}
+.navi-acc li.active > a, .navi-acc li:hover > a {
+    color:#54acc0 !important;
+    background-color:#1e202c;
+}
+.navi-acc li.active > a {
+    background:#1e202c;
+}
+.navi-acc .label{
+    position:absolute;
+    right:26px;
+    top:20px;
+}
+.sidebarhidden .label{
+    display:none;
+}
