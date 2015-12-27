@@ -463,4 +463,15 @@ aside.sidebarhidden .navi-acc li ul li a {
     text-transform:none;
     color:#9b9ba3;
     font-weight:normal;
-}   
+}
+    
+/* Right Section */
+.right-sec {
+    z-index:1;
+    display:table-cell;
+    background:#f4f4f4;
+    vertical-align:top;
+}
+.structure-row.alone .right-sec {
+    display:block;
+}
