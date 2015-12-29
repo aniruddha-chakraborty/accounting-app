@@ -495,3 +495,42 @@ aside.sidebarhidden .navi-acc li ul li a {
     background: linear-gradient(to bottom,  rgba(56,59,68,1) 0%,rgba(46,47,52,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#383b44', endColorstr='#2e2f34',GradientType=0 );
 }
+
+/* Header User Section */
+.right-sec > header .user {
+    float:left;
+}
+/* User Avatar */
+.user figure{
+    padding:5px;
+    width:44px;
+    height:44px;
+    float:left;
+    border-radius:50%;
+    -o-border-radius:50%;
+    -webkit-border-radius:50%;
+    -webkit-box-sizing:content-box;
+    -moz-box-sizing:content-box;
+    box-sizing:content-box;
+    border:#fff solid 1px;
+}
+.user figure img{
+    width:44px;
+    height:44px;
+    border-radius:50%;
+    -o-border-radius:50%;
+    -webkit-border-radius:50%;
+}
+.user .welcome{
+    float:left;
+    padding-top:8px;
+    margin-left:10px;
+}
+.user .welcome p, .user .welcome h5{
+    padding:0;
+    margin:0;
+    color:#FFF;
+}
+.user .welcome h5 a{
+    color:#FFF;
+}
