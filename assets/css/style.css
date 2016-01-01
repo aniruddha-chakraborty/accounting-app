@@ -534,3 +534,47 @@ aside.sidebarhidden .navi-acc li ul li a {
 .user .welcome h5 a{
     color:#FFF;
 }
+
+/* Search Section */
+.right-sec .search-box{
+    float:left;
+    height:33px;
+    width:333px;
+    margin:11px 0 0 30px;
+    border-radius:20px;
+    position:relative;
+    border:#6b6d73 solid 2px;
+    background:#444549;
+}
+.right-sec .search-box:before{
+    content:"";
+    width:12px;
+    height:12px;
+    position:absolute;
+    left:16px;
+    top:8px;
+    display:inline-block;
+    background:url(../images/sprite.png) no-repeat -60px -5px;
+}
+.right-sec .search-box input[type="text"]{
+    border:none;
+    width:80%;
+    color:#D9DBE1;
+    margin:6px 0 0 40px;
+    padding-right:40px;
+    background:transparent;
+}
+.right-sec .search-box input[type="submit"]{
+    font-size:13px;
+    color:#6d6f75 !important;
+    font-weight:bold;
+    padding:0 10px;
+    text-transform:uppercase;
+    border:none;
+    height:23px;
+    border-left:#6b6d73 solid 2px;
+    background:none;
+    position:absolute;
+    right:0;
+    top:3px;
+}
