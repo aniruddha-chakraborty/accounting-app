@@ -598,3 +598,29 @@ aside.sidebarhidden .navi-acc li ul li a {
 .topnav > ul > li > a > i{
     margin-right:10px;
 }
+
+/* Tasks Dropdown */
+.topnav ul li{
+    position:relative;
+}
+.topnav ul li:hover{
+    background:#666981;
+}
+.topnav ul li:hover a{
+    color:#fff;
+}
+.topnav ul li .popdown{
+    position:absolute;
+    left:0;
+    top:30px;
+    display:none;
+    background:#666981;
+    width:300px;
+}
+.popdown-right{
+    left:inherit !important;
+    right:0 !important;
+}
+.topnav ul li:hover .popdown{
+    display:block;
+}
