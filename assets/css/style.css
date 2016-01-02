@@ -578,3 +578,23 @@ aside.sidebarhidden .navi-acc li ul li a {
     right:0;
     top:3px;
 }
+/* Top Section Navigation */
+.topnav {
+    float:right;
+}
+.topnav ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+.topnav ul li{
+    float:left;
+    margin-top:15px;
+    padding:5px 10px;
+}
+.topnav > ul > li > a{
+    color:#fff;
+}
+.topnav > ul > li > a > i{
+    margin-right:10px;
+}
