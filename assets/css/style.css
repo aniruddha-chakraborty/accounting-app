@@ -666,3 +666,54 @@ aside.sidebarhidden .navi-acc li ul li a {
     float:left;
     font-size:13px;
 }
+/* Notification List - Dropdown */
+.notificationlist {
+    width:100%;
+    float:left;
+}
+.notificationlist ul{
+    width:100%;
+    padding:10px 20px 20px 20px;
+    margin:0;
+    list-style:none;
+    float:left;
+    border-bottom:#797b90 solid 1px;
+}
+.notificationlist ul li{
+    width:100%;
+    padding:20px 0 0 0;
+    margin:10px 0 0 0;
+    list-style:none;
+    color:#FFF;
+    border-top:#797b90 solid 1px;
+}
+.notificationlist ul li:first-child{
+    margin:0 0 0 0;
+    padding:10px 0 0 0;
+    border:none;
+}
+.notificationlist ul li h6{
+    color:#FFF;
+    margin:0 0 5px 0;
+}
+.notificationlist ul li p{
+    margin:0 0 0px 0;
+}
+.notificationlist ul li span{
+    color:#d9d9d9;
+    font-size:11px;
+    margin:0 0 0px 0;
+}
+.notificationlist ul li span i{
+    font-size:9px;
+    margin-right:5px;
+}
+.notificationlist ul li h6 a{
+    color:#FFF;
+}
+.notificationlist a.viewall{
+    color:#FFF;
+    padding:8px 20px 12px 20px;
+    float:left;
+    font-size:13px;
+}
