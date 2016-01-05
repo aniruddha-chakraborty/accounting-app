@@ -624,3 +624,45 @@ aside.sidebarhidden .navi-acc li ul li a {
 .topnav ul li:hover .popdown{
     display:block;
 }
+
+/* Tasks List - Dropdown */
+.taskslist {
+    width:100%;
+    float:left;
+}
+.taskslist ul{
+    width:100%;
+    padding:10px 20px 20px 20px;
+    margin:0;
+    list-style:none;
+    float:left;
+    border-bottom:#797b90 solid 1px;
+}
+.taskslist ul li{
+    width:100%;
+    padding:0 0;
+    margin:10px 0 0 0;
+    list-style:none;
+}
+.taskslist ul li:first-child{
+    margin:0 0 0 0;
+}
+.taskslist ul li h6{
+    color:#FFF;
+}
+.taskslist ul li h6 span{
+    font-weight:normal;
+}
+.taskslist ul li h6 a{
+    color:#FFF;
+}
+.taskslist ul li .progress{
+    margin:0;
+    height:8px;
+}
+.taskslist a.viewall{
+    color:#FFF;
+    padding:8px 20px 12px 20px;
+    float:left;
+    font-size:13px;
+}
